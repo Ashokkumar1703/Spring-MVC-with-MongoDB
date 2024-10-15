@@ -11,3 +11,7 @@ EmployeeApp
 │   │   ├── resources
 │   │   │   └── application.properties
 ├── pom.xml
+
+Add Employee: Use the form on the landing page.
+Get All Employees: http://localhost:8080/api/employees/displayALL
+Get Employee by ID: http://localhost:8080/api/employees/display/{id}

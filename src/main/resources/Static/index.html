@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Form</title>
+</head>
+<body>
+    <h2>Enter Employee Details</h2>
+    <form action="http://localhost:8080/api/employees/add" method="post">
+        <label for="name">Employee Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Employee Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
